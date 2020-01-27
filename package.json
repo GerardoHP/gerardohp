@@ -4,8 +4,9 @@
   "description": "Small app to create an online resume",
   "main": "/lib/server.js",
   "scripts": {
-    "start": "SET DEBUG=app,app:* && node lib\\server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -wd"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,19 @@
   },
   "homepage": "https://github.com/gerardohp/gerardohp#readme",
   "dependencies": {
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "debug": "^4.1.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
   }
 }
