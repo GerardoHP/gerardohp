@@ -1,0 +1,28 @@
+{
+  "name": "gerardohp",
+  "version": "1.0.0",
+  "description": "Small app to create an online resume",
+  "main": "/lib/server.js",
+  "scripts": {
+    "start": "SET DEBUG=app,app:* && node lib\\server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardohp/gerardohp.git"
+  },
+  "keywords": [
+    "CV",
+    "GerardoHP"
+  ],
+  "author": "Gerardo de Jesús Hernández Perales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerardohp/gerardohp/issues"
+  },
+  "homepage": "https://github.com/gerardohp/gerardohp#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
