@@ -3,6 +3,10 @@
     "public": "public",
     "rewrites": [
       {
+        "source": "/cv",
+        "function": "app"
+      },
+      {
         "source": "/",
         "function": "app"
       }
