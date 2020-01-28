@@ -6,7 +6,8 @@
   "scripts": {
     "start": "babel-node lib/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "build-webpack": "webpack -p"
   },
   "repository": {
     "type": "git",
