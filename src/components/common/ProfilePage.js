@@ -4,7 +4,7 @@ import SocialMedia from './SocialMedia';
 const profile = {
     name: 'Gerardo Hernández',
     postion: 'Senior Software Engineer',
-    conctactLabel: 'Contact Me',
+    contactLabel: 'Contact Me',
     downloadLabel: 'Download CV'
 }
 
@@ -38,7 +38,7 @@ const ProfilePage = () => {
                                 data-aos="zoom-in"
                                 data-aos-anchor="data-aos-anchor"
                             >
-                                {profile.conctactLabel}
+                                {profile.contactLabel}
                             </a>
                             <a
                                 className="btn btn-primary"

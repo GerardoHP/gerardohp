@@ -18,7 +18,7 @@ const Header = () => {
         >
           <div className="container">
             <div className="navbar-translate">
-              <a className="navbar-brand" href="#" rel="tooltip">
+              <a className="navbar-brand" href="/" rel="tooltip">
                 GerardoHP
                 </a>
               <button

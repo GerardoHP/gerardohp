@@ -7257,6 +7257,18 @@ Created using IcoMoon - icomoon.io
   color: #405de6;
 }
 
+.cc-linkedin:hover i {
+  color: #0073b1;
+}
+
+.cc-github:hover i {
+  color: #24292e;
+}
+
+.cc-stack-overflow:hover i {
+  color: #f48024;
+}
+
 /* Credit Style */
 a.credit {
   color: inherit;
