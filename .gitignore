@@ -1,1 +1,7 @@
-/node_modules
+**/node_modules
+firebase-debug.log
+**/hosting.cHVibGlj.cache
+./package-lock.json
+/public/app.js
+/public/vendor.js
+.firebase/hosting.cHVibGlj.cache
