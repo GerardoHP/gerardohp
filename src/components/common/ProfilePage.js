@@ -25,7 +25,7 @@ const ProfilePage = () => {
                         <div className="content-center">
                             <div className="cc-profile-image">
                                 <a href="#profile">
-                                    <img src="images/profileimage.jpg" alt="Profile image" />
+                                    <img src="images/profileimage.jpg" alt="Profile" />
                                 </a>
                             </div>
                             <div className="h2 title">{profile.name}</div>
