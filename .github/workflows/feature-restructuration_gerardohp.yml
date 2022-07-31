@@ -32,6 +32,7 @@ jobs:
         with: 
           source: "public/**"
           target: "public/**"
+          flags:  "-r"
       
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
