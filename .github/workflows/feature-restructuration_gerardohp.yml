@@ -30,8 +30,8 @@ jobs:
       - name: copy public files
         uses: canastro/copy-file-action@master
         with: 
-          source: "public/*"
-          target: "public/*"
+          source: "public/**"
+          target: "public/**"
       
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
