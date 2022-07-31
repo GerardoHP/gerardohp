@@ -26,13 +26,8 @@ jobs:
         run: |
           npm install
           npm run build --if-present
+          npm run copy 
 
-      - name: copy public files
-        uses: canastro/copy-file-action@master
-        with: 
-          source: "public/**"
-          target: "public/**"
-      
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
 
