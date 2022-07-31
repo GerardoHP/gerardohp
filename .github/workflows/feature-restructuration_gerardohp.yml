@@ -6,7 +6,8 @@ name: Build and deploy Node.js app to Azure Web App - gerardohp
 on:
   push:
     branches:
-      - feature/Restructuration
+      - dev
+      - feature/*
   workflow_dispatch:
 
 jobs:
@@ -25,7 +26,6 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-          npm run test --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
