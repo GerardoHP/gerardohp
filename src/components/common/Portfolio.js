@@ -113,7 +113,7 @@ const PortfolioImg = ({ img, title, subtitle, category }) => {
     >
       <a href={`#${category}`}>
         <figure className="cc-effect">
-          <img src={img} alt="Image" />
+          <img src={img} alt="categoria" />
           <figcaption>
             <div className="h4">{title}</div>
             <p>{subtitle}</p>
