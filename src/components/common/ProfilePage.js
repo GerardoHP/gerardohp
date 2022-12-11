@@ -24,8 +24,8 @@ const ProfilePage = () => {
                     <div className="container">
                         <div className="content-center">
                             <div className="cc-profile-image">
-                                <a href="#">
-                                    <img src="images/profileimage.jpg" alt="Image" />
+                                <a href="#profile">
+                                    <img src="images/profileimage.jpg" alt="Profile" />
                                 </a>
                             </div>
                             <div className="h2 title">{profile.name}</div>
@@ -42,7 +42,7 @@ const ProfilePage = () => {
                             </a>
                             <a
                                 className="btn btn-primary"
-                                href="#"
+                                href="#primary"
                                 data-aos="zoom-in"
                                 data-aos-anchor="data-aos-anchor"
                             >
