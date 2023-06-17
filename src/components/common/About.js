@@ -18,7 +18,7 @@ const profile = {
         value: {
             age: { value: 33, label: 'Age' },
             email: { value: 'contact@gerardohp.dev', label: 'Email' },
-            phone: { value: '+52 477 137 3592', label: 'Phone' },
+            phone: { value: '+52 *** *** ****', label: 'Phone' },
             location: { value: 'León, Guanajuato México', label: 'Location' },
             languages: { value: 'English, Spanish', label: 'Language(s)' }
         }, label: 'Basic Information'
