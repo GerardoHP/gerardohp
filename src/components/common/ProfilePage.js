@@ -42,9 +42,10 @@ const ProfilePage = () => {
                             </a>
                             <a
                                 className="btn btn-primary"
-                                href="#primary"
+                                href="gerardo_hernandez.pdf"
                                 data-aos="zoom-in"
                                 data-aos-anchor="data-aos-anchor"
+                                download
                             >
                                 {profile.downloadLabel}
                             </a>
