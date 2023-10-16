@@ -3,20 +3,19 @@ import React from 'react';
 const profile = {
     about: {
         value:
-            [`9 years developing quality applications, from backend services, front end applications, wpf interfaces for home automation
-    purposes, screen scrappers, etc.Mayor knowledge with .Net(WPF, Windows Phone, WCF, Web Api Rest, MVC, ASP.NET, REST API),
+            [`10+ years developing quality applications, from backend services, front end applications, wpf interfaces for home automation
+    purposes, screen scrappers, Golang, Docker, gRPC, Microservices. Mayor knowledge with .Net(WPF, Windows Phone, WCF, Web Api Rest, MVC, ASP.NET, REST API),
     HTML, JavaScript and some others JavaScript libraries and frameworks such as Datatable, Cycle, JQuery, JQuery UI, AngularJS,
     Angular, React.Experience in Android, Java, PHP.`,
-                `Looking for new challenges to make myself a better person, and growth as a professional.Having exciting projects with new
+                `Looking for new challenges to make myself a better person, and growth as a professional. Having exciting projects with new
         technologies and of course new experiences.`,
-                `Passionate about my job and eager to learn even more, music lover, amateur musician, gamer, mtb enthusiastic, taco lover, 
-        devoted husband and noob dad.`],
+                ],
         label: 'About',
     },
 
     basicInfo: {
         value: {
-            age: { value: 33, label: 'Age' },
+            age: { label: 'Age' },
             email: { value: 'contact@gerardohp.dev', label: 'Email' },
             phone: { value: '+52 *** *** ****', label: 'Phone' },
             location: { value: 'León, Guanajuato México', label: 'Location' },
@@ -27,6 +26,7 @@ const profile = {
 
 const About = () => {
     const { basicInfo } = profile;
+    basicInfo.value.age.value = (new Date().getFullYear()) - 1987;
     return (
         <div className="section" id="about">
             <div className="container">

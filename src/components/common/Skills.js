@@ -3,16 +3,21 @@ import React from 'react';
 const profile = {
     skillsLabel: 'Professional Skills',
     skills: [
-        { technology: 'HTML', percent: 90, years: 9 },
-        { technology: 'JavaScript', percent: 90, years: 8 },
-        { technology: 'CSS', percent: 90, years: 9 },
-        { technology: 'SASS', percent: 90, years: 3 },
-        { technology: 'C#', percent: 95, years: 9 },
-        { technology: 'React', percent: 90, years: 1 },
-        { technology: 'AngularJS', percent: 90, years: 4 },
-        { technology: 'Angular', percent: 90, years: 2 },
-        { technology: 'NodeJS', percent: 75, years: 2 },
-        { technology: 'Java', percent: 50, years: 1 },
+        {technology: 'HTML', percent: 90, years: 9},
+        {technology: 'JavaScript', percent: 90, years: 8},
+        {technology: 'CSS', percent: 90, years: 9},
+        {technology: 'SASS', percent: 90, years: 3},
+        {technology: 'C#', percent: 95, years: 10},
+        {technology: 'React', percent: 90, years: 1},
+        {technology: 'AngularJS', percent: 90, years: 4},
+        {technology: 'Angular', percent: 90, years: 2},
+        {technology: 'NodeJS', percent: 75, years: 2},
+        {technology: 'Java', percent: 50, years: 1},
+        {technology: '.Net Core', percent: 90, years: 10},
+        {technology: 'Docker', percent: 90, years: 5},
+        {technology: 'Git', percent: 90, years: 8},
+        {technology: 'Flutter', percent: 90, years: 4},
+        {technology: 'Go', percent: 80, years: 4},
     ]
 
 }
@@ -40,10 +45,10 @@ const Skills = () => {
 
 // ToDo: Add changer to display the years of experience 
 
-const Skill = ({ technology, percent }) => {
+const Skill = ({ technology, percent, years, }) => {
     return (<div className="col-md-6">
         <div className="progress-container progress-primary">
-            <span className="progress-badge">{technology}</span>
+            <span className="progress-badge">{technology} ({years} Years)</span>
             <div className="progress">
                 <div
                     className="progress-bar progress-bar-primary"
