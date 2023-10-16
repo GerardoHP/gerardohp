@@ -17,7 +17,7 @@ const profile = {
         {technology: 'Docker', percent: 90, years: 5},
         {technology: 'Git', percent: 90, years: 8},
         {technology: 'Flutter', percent: 90, years: 4},
-        {technology: 'Go', percent: 80, years: 4},
+        {technology: 'Go', percent: 80, years: 2},
     ]
 
 }
