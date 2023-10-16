@@ -26,7 +26,7 @@ const profile = {
 
 const About = () => {
     const { basicInfo } = profile;
-    basicInfo.value.age.value = (new Date().getFullYear()) - 1987;
+    basicInfo.value.age.value = (new Date().getFullYear()) - 1988;
     return (
         <div className="section" id="about">
             <div className="container">
